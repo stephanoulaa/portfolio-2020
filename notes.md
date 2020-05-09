@@ -1,0 +1,12 @@
+-add hover to links as necessary
+-change profile pic position
+-put in contact form/make email clickable
+-make fonts consistent
+-input links for projects
+-get icons for skills section
+-style skills section more
+-change my work section
+-center header at the top
+-put transparent white box around text
+-fix responsive design at the end
+-add certifications to skills
