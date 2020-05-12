@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+      <script src="./contact.js"></script>
+    <scrip src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></scrip>
   </head>
   <body>
 
@@ -35,51 +37,51 @@
         <a href="#portfolio-banner" id="my-work">my portfolio</a>
       </div>
     </header>
-
-    <section id="portfolio-banner">
-      <div id="overlay-portfolio">
-        <h2 class="heading">Portfolio</h2>
-        <p>GitHub description: <a href="https://github.com/stephanoulaa" target="_blank">https://github.com/stephanoulaa</a></p>
+      
+    <section id="about-banner">
+      <div class="overlay-two">
+        <h2 class="heading">About</h2>
+        <p>ABOUT Description</p>
       </div>
     </section>
 
     <section class="portfolio" id="project1">
       <h3>project title 1</h3><hr class="underline">
       <p>description</p>
-      <a href="#" target="_blank"><img class="project1-img" src="images/rose.jpg" width="600px" height="auto"></a>
+      <a href="#" target="_blank"><img class="project1-img" src="images/c-rose.jpg" width="600px" height="auto"></a>
     </section>
 
     <section class="portfolio" id="project2">
       <h3>project title 2</h3><hr class="underline">
       <p>description</p>
-      <a href="#" target="_blank"><img class="project2-img" src="images/rose.jpg" width="600px" height="auto"></a>
+      <a href="#" target="_blank"><img class="project2-img" src="images/c-rose.jpg" width="600px" height="auto"></a>
     </section>
 
     <section class="portfolio" id="project3">
       <h3>CodeCraft Hackathon Project</h3><hr class="underline">
       <p>description</p>
-      <a href="#" target="_blank"><img class="project3-img" src="images/rose.jpg" width="600px" height="auto"></a>
+      <a href="#" target="_blank"><img class="project3-img" src="images/c-rose.jpg" width="600px" height="auto"></a>
     </section>
 
     <section class="portfolio" id="project4">
       <h3>Music Website</h3><hr class="underline">
       <p>description</p>
-      <a href="#" target="_blank"><img class="project4-img" src="images/rose.jpg" width="600px" height="auto"></a>
+      <a href="#" target="_blank"><img class="project4-img" src="images/c-rose.jpg" width="600px" height="auto"></a>
     </section>
 
     <section class="portfolio" id="project5">
       <h3>Local Store Site</h3><hr class="underline">
       <p>description</p>
-      <a href="#" target="_blank"><img class="project5-img" src="images/rose.jpg" width="600px" height="auto"></a>
+      <a href="#" target="_blank"><img class="project5-img" src="images/c-rose.jpg" width="600px" height="auto"></a>
     </section>
-
-    <section id="about-banner">
-      <div class="overlay-two">
-        <h2 class="heading">About</h2>
-        <p>About Description</p>
+      
+    <section id="portfolio-banner">
+      <div id="overlay-portfolio">
+        <h2 class="heading">Portfolio</h2>
+        <p>GitHub description: <a href="https://github.com/stephanoulaa" target="_blank">https://github.com/stephanoulaa</a></p>
       </div>
     </section>
-
+      
     <section id="skills">
       <div class="skills-container">
         <h2 class="heading text-center">Skills</h2>
@@ -175,27 +177,33 @@
     <section id="contact">
       <div class="contact-container">
         <h2 class="heading text-center">Contact</h2>
-        <div class="contact-icons">
-<!--
-          <div class="contact-group">
-            <i class="fas fa-map-marker-alt"></i>
-            <p>Chicago, IL</p>
-          </div>
--->
-<!--
-          <div class="contact-group">
-            <i class="fas fa-mobile-alt"></i>
-            <p>312-401-3399</p>
-          </div>
--->
-          <div class="contact-group">
-            <i class="fas fa-envelope"></i>
-            <p>stephprodromos@gmail.com</p>
-          </div>
-          <div class="contact-form">
-            <p>Put contact form here instead</p>
-          </div>
-        </div>
+
+<!--  contact form  (using Formspree and npm serve package)   -->
+
+          <form action="https://formspree.io/stephprodromos@gmail.com" method="POST">
+            <label>
+              Name
+                <input type="text" name="name" class="name">
+            </label>
+            <label>
+              Email
+                <input type="email" name="email" class="email">
+            </label>
+              <label>
+              Subject
+                <input type="text" name="subject" class="subject">
+            </label>
+              <label>
+              Message
+                <textarea name="message" class="message" row="4"></textarea>
+            </label>
+              <div class="status"></div>
+              <button type="submit" class="submit">SEND</button>
+          </form>
+          
+          
+          
+            
       </div>
     </section>
 

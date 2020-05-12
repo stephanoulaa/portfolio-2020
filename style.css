@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -26,7 +30,7 @@ header {
   width: 80px;
   height: 80px;
 /*    background-color: aliceblue;*/
-  background: url('images/rose.jpg');
+  background: url('images/c-rose.jpg');
   background-size: cover;
   background-position: center center;
   border-radius: 50%;
@@ -258,7 +262,6 @@ nav ul li a:hover {
   letter-spacing: .1em;
   font-family: 'Lato', sans-serif;
   display: block;
-  border-bottom: 1px solid lightgrey;
   padding-bottom: 12px;
   width: 200px;
   margin: auto;
@@ -273,18 +276,6 @@ nav ul li a:hover {
   top: 80px;
 }
 
-.contact-icons {
-  font-size: 180%;
-  padding: 20px;
-  position: relative;
-  top: 140px;
-  font-family: 'Lato', sans-serif;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  text-align: center;
-  color: mediumpurple;
-}
-
 .contact-group {
   text-align: center;
 }
@@ -292,10 +283,6 @@ nav ul li a:hover {
 .contact-group i {
   font-size: 200%;
   margin-bottom: 20px;
-}
-
-.contact-form {
-    
 }
 
 footer {
@@ -312,7 +299,7 @@ footer {
 
 .footer-icons a {
   font-size: 300%;
-  color: #bbb;
+  color: grey;
   margin: 0 40px;
 }
 
@@ -321,7 +308,7 @@ footer {
 }
 
 .footer-text {
-  color: #bbb;
+  color: grey;
   position: relative;
   top: 100px;
 }
@@ -339,6 +326,10 @@ footer {
   font-size: 300%;
 }
 
+#arrow i {
+  color: mediumturquoise;
+}
+
 .underline {
   width: 100px;
   margin-bottom: 30px;
@@ -348,6 +339,12 @@ footer {
   background-color: mistyrose;
   color: white;
   padding: 40px 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.skills-container .heading {
+  color: burlywood;
 }
 
 .skills-row {
@@ -488,6 +485,7 @@ footer {
 #invision {
   width: 90%;
 }
+
 
 @media(max-width: 500px) {
   #pro-pic, nav, #header-icons {
