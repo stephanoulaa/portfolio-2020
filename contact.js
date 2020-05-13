@@ -15,7 +15,7 @@ $(document).ready(function() {
         
         //validate values
         if(email.length > 5 && email.includes('@') && email.includes('.')){
-            statusElm.append('<div>Email is valid</div>')
+            //statusElm.append('<div>Email is valid</div>')
             //console.log("email is valid")
         } else {
             event.preventDefault() //will ensure form will not submit when email is invalid
@@ -25,14 +25,14 @@ $(document).ready(function() {
         
         
         if(subject.length >= 2) {
-            statusElm.append('<div>Subject is valid</div>')
+            //statusElm.append('<div>Subject is valid</div>')
         } else {
             event.preventDefault() //will ensure form will not submit when subject is invalid
             statusElm.append('<div>Subject is not valid</div>')
         }
         
         if(message.length > 10) {
-            statusElm.append('<div>Message is valid</div>')
+            //statusElm.append('<div>Message is valid</div>')
         } else {
             event.preventDefault() //will ensure form will not submit when message is invalid
             statusElm.append('<div>Message is not valid</div>')

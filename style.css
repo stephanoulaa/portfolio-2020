@@ -269,26 +269,65 @@ nav ul li a:hover {
 
 #contact {
   height: 420px;
+  background: url('images/stefanos.jpg');
+  opacity: 0.7;
+  background-size: cover;
+  background-position: center center;
 }
 
 #contact h2 {
-  position: relative;
-  top: 80px;
-}
-
-.contact-group {
   text-align: center;
+  position: relative;
+  top: 40px;
+  color: black;
 }
 
-.contact-group i {
-  font-size: 200%;
-  margin-bottom: 20px;
+.contact-container {
+  text-align: right;
+}
+
+.contact-form {
+  text-align: left;
+  padding-top: 25px;
+  margin-left: 69%;
+}
+
+.contact-table {
+    border: 12px solid lavenderblush;
+    background-color: lavenderblush;
+    opacity: 0.7;
+}
+
+.contact-table tr td input {
+    border: none;
+    background-color: lightsteelblue;
+    padding-left: 5px;
+}
+
+.contact-table tr td {
+    padding-bottom: 15px;
+}
+
+.contact-form tr td textarea {
+    border: none;
+    background-color: lightsteelblue;
+    padding-left: 5px;
+}
+
+.contact-form tr td button {
+    border: none;
+    background-color: powderblue;
+    padding: 10px;
+}
+
+.contact-form tr td button:hover {
+    background-color: deepskyblue;
 }
 
 footer {
   height: 420px;
   padding: 20px;
-  background-color: palevioletred;
+  background-color: thistle;
   position: relative;
 }
 

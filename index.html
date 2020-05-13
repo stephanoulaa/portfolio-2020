@@ -175,35 +175,33 @@
     </section>
 
     <section id="contact">
-      <div class="contact-container">
         <h2 class="heading text-center">Contact</h2>
+        <div class="contact-container">
+          <!--  contact form  (using Formspree, JsDelivr and npm serve package)   --> 
+          <form class="contact-form" action="https://formspree.io/stephprodromos@gmail.com" method="POST">
+              
+              <table class="contact-table">
+                <tr>
+                  <td><input type="text" name="name" class="name" placeholder="Name"></td>
+                </tr>
+                <tr>
+                  <td><input type="email" name="email" class="email" placeholder="Email"></td>
+                </tr>
+                <tr>
+                  <td><input type="text" name="subject" class="subject" placeholder="Subject"></td>
+                </tr>
+                <tr>
+                  <td><textarea name="message" class="message" row="4" placeholder="Message"></textarea></td>
+                </tr>
+                <tr>
+                  <td><div class="status"></div></td>
+                </tr>
+                <tr>
+                  <td><button type="submit" class="submit">Send</button></td>
+                </tr>
+              </table>
 
-<!--  contact form  (using Formspree and npm serve package)   -->
-
-          <form action="https://formspree.io/stephprodromos@gmail.com" method="POST">
-            <label>
-              Name
-                <input type="text" name="name" class="name">
-            </label>
-            <label>
-              Email
-                <input type="email" name="email" class="email">
-            </label>
-              <label>
-              Subject
-                <input type="text" name="subject" class="subject">
-            </label>
-              <label>
-              Message
-                <textarea name="message" class="message" row="4"></textarea>
-            </label>
-              <div class="status"></div>
-              <button type="submit" class="submit">SEND</button>
-          </form>
-          
-          
-          
-            
+          </form>  
       </div>
     </section>
 
