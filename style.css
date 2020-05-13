@@ -295,7 +295,6 @@ nav ul li a:hover {
 .contact-table {
     border: 12px solid lavenderblush;
     background-color: lavenderblush;
-    opacity: 0.7;
 }
 
 .contact-table tr td input {
