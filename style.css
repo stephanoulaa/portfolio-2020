@@ -197,6 +197,10 @@ nav ul li a:hover {
     background-color: lavender;
 }
 
+#oop_link {
+    text-decoration: none;
+}
+
 .portfolio .project2-img {
     height: 50%;
     width: 20%;
@@ -278,7 +282,7 @@ nav ul li a:hover {
 #contact h2 {
   text-align: center;
   position: relative;
-  top: 40px;
+  top: 25px;
   color: black;
 }
 
@@ -387,7 +391,8 @@ footer {
 }
 
 #skills {
-  background-color: mistyrose;
+/*  background-color: mistyrose;*/
+  background-color: powderblue;
   color: white;
   padding: 40px 0;
   padding-left: 40px;
@@ -395,7 +400,8 @@ footer {
 }
 
 .skills-container .heading {
-  color: burlywood;
+/*  color: rosybrown;*/
+    color: rosybrown;
 }
 
 .skills-row {
@@ -417,7 +423,8 @@ footer {
 }
 
 .skill {
-  color: burlywood;
+/*  color: burlywood;*/
+    color: rosybrown;
 }
 
 .skill p {
