@@ -3,10 +3,10 @@
 -style contact form
 -make fonts consistent
 -input links for projects
--get icons for skills section
 -style skills section more
 -change my work section
 -center header at the top
+-add regex to contact form fields
 -put transparent white box around text
 -fix responsive design at the end
 -add certifications to skills
