@@ -30,7 +30,7 @@ header {
   width: 80px;
   height: 80px;
 /*    background-color: aliceblue;*/
-  background: url('images/c-rose.jpg');
+  background: url('images/boulder2.jpg');
   background-size: cover;
   background-position: center center;
   border-radius: 50%;
@@ -102,7 +102,7 @@ nav ul li a:hover {
 }
 
 #header-icons a {
-  color: plum;
+  color: white;
   margin-right: 20px;
 }
 
@@ -179,7 +179,7 @@ nav ul li a:hover {
 .portfolio p {
   font-family: 'PT Serif', serif;
   font-size: 130%;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 /*
@@ -202,9 +202,13 @@ nav ul li a:hover {
     width: 55%;
 }
 
+#project2 {
+    background-color: paleturquoise;
+}
+
 .portfolio .project2-img {
     height: 50%;
-    width: 20%;
+    width: 55%;
 }
 
 .portfolio .project3-img {
@@ -213,7 +217,7 @@ nav ul li a:hover {
 }
 
 #project3 {
-    background-color: lightsteelblue;
+/*    background-color: powderblue;lightsteelblue*/
 }
 
 .portfolio .project4-img {
@@ -223,11 +227,11 @@ nav ul li a:hover {
 
 .portfolio .project5-img {
     height: 50%;
-    width: 20%;
+    width: 55%;
 }
 
 #project5 {
-    background-color: oldlace;
+    background-color: darkturquoise;
 }
 
 .portfolio img {
