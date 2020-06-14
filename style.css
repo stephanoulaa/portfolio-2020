@@ -197,8 +197,9 @@ nav ul li a:hover {
     background-color: lavender;
 }
 
-#oop_link {
-    text-decoration: none;
+.portfolio .project1-img {
+    height: 50%;
+    width: 55%;
 }
 
 .portfolio .project2-img {
