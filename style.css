@@ -54,6 +54,15 @@ nav ul {
 }
 */
 
+#github-link {
+    text-decoration: none;
+    color: white;
+}
+
+#github-link:hover {
+    color: skyblue;
+}
+
 nav ul li {
   display: inline-block;
   margin: 0 8px;

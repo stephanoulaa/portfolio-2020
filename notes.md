@@ -1,13 +1,8 @@
+To Do Next:
 -add hover to links as necessary
--change profile pic position
--style contact form
 -make fonts consistent
 -input links for projects
--style skills section more
--change my work section
--center header at the top
--add regex to contact form fields
--put transparent white box around text
--fix responsive design at the end
+-add to my work section
+-add regex to validate contact form fields
 -add certifications to skills
 -make everything responsive
