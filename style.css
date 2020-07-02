@@ -119,6 +119,15 @@ nav ul li a:hover {
   color: skyblue;
 }
 
+#bio-contact {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+#bio-contact:hover {
+    color: skyblue;
+}
+
 #my-work {
   display: block;
   color: white;
@@ -292,7 +301,7 @@ nav ul li a:hover {
   text-align: center;
   position: relative;
   top: 25px;
-  color: black;
+  color: honeydew;
 }
 
 .contact-container {

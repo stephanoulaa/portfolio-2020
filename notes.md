@@ -1,8 +1,11 @@
-To Do Next:
+Minor/UX Changes:
 -add hover to links as necessary
 -make fonts consistent
--input links for projects
--add to my work section
+-make sure everything is responsive
+
+Contact:
 -add regex to validate contact form fields
--add certifications to skills
--make everything responsive
+-make contact form responsive
+
+Project Sections:
+-add buttons to: view live or view source code
