@@ -10,7 +10,10 @@ body {
 }
 
 header {
-    background-color: cornflowerblue;
+    background: url('images/colorado.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 0.85;
 /*  background: url('images/colorado.png');*/
 /*  background-size: cover;*/
 /*  background-position: center center;*/
@@ -30,7 +33,8 @@ header {
   width: 80px;
   height: 80px;
 /*    background-color: aliceblue;*/
-  background: url('images/boulder2.jpg');
+/*  background: url('images/boulder2.jpg');*/
+  background: url('images/c-rose.jpg');
   background-size: cover;
   background-position: center center;
   border-radius: 50%;
@@ -56,7 +60,7 @@ nav ul {
 
 #github-link {
     text-decoration: none;
-    color: white;
+    color: deepskyblue;
 }
 
 #github-link:hover {
@@ -178,7 +182,6 @@ nav ul li a:hover {
   position: relative;
   top: 120px;
   font-size: 140%;
-  font-family: 'PT Serif', serif;
   display: inline-block;
   width: 70%;
 }
@@ -195,7 +198,6 @@ nav ul li a:hover {
 }
 
 .portfolio p {
-  font-family: 'PT Serif', serif;
   font-size: 130%;
   margin-bottom: 50px;
 }
@@ -254,10 +256,23 @@ nav ul li a:hover {
 #about-banner {
   text-align: center;
   height: 520px;
+/*
   background: url('images/colorado.png');
   background-repeat: no-repeat;
   background-size: cover;
+*/
+  background-color: cornflowerblue;
 /*  background-position: center center;*/
+}
+
+#about-foto {
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin-left: 100px;
+    border-radius: 50%;
+    padding-right: 50px;
+    padding-top: 40px;
 }
 
 #about-banner p {
@@ -265,8 +280,9 @@ nav ul li a:hover {
   display: block;
   margin: 40px auto;
   font-size: 130%;
-  font-family: 'PT Serif', serif;
   letter-spacing: .1em;
+  padding-top: 50px;
+    text-align: left;
 }
 
 .overlay-two {
